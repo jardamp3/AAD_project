@@ -1,3 +1,4 @@
+/*
 package fi.jamk.androiddevicecommunication;
 
 import java.io.IOException;
@@ -144,7 +145,8 @@ public class BluetoothTexting extends Activity
         });
     }
 
-    private void setupSearchButton() {
+    private void setupSearchButton()
+    {
         Button searchButton = (Button)findViewById(R.id.button_search);
 
         searchButton.setOnClickListener(new OnClickListener() {
@@ -262,3 +264,4 @@ public class BluetoothTexting extends Activity
         }
     }
 }
+*/
